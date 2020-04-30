@@ -1,0 +1,10 @@
+
+.main-slider { 
+  width: 80%;
+  position :relative
+}
+
+
+.avatar {
+  border-radius: 50%;
+}
