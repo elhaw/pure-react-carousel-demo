@@ -70,7 +70,7 @@ class MainSlider extends Component {
                 <Slide key ={index} index={{ index }}>
                   <figure className="feedback__carousel__quote text-c100 relative bg-c000 py-12 px-24 flex flex-col items-center justify-center">
                     <img
-                      className="rounded-full mx-auto"
+                      className="avatar"
                       src={slide.image.url}
                       alt="nile"
                     />
@@ -79,7 +79,7 @@ class MainSlider extends Component {
                         {slide.body}
                       </p>
                       <h4 className="text-c200 font-medium text-md font-semibold mb-2">
-                        {slide.image.author}
+                        {slide.author}
                       </h4>
                       <p className="leading-normal text-c600 text-base">
                         <a href ={slide.link.url}>{slide.link.text}</a>
